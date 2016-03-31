@@ -1,5 +1,5 @@
-<ul>
-  {{#each model as |legislator|}}
-    <li> {{legislator.first_name}} {{legislator.last_name}}<br>Contact: <a href=  {{legislator.contact_form}}>{{legislator.contact_form}}</a></li>
-  {{/each}}
-</ul>
+<iframe id="ytplayer" type="text/html" width="640" height="390"
+  src="http://www.youtube.com/embed/{{model}}?autoplay=1&origin=http://example.com"
+  frameborder="0"/>
+
+  {{#link-to'index'}}Home {{/link-to}}
